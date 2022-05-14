@@ -7,6 +7,8 @@ export default function Info() {
         className="photo"
         src="./images/photo.jpg"
         alt="profile photo of Ulla van Sprang"
+        width="317"
+        height="317"
       />
       <div className="header-text">
         <h1>Ulla van Sprang</h1>

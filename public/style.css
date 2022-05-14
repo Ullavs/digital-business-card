@@ -83,6 +83,11 @@ body {
   margin: 1rem auto;
 }
 
+.photo {
+  object-fit: cover;
+  height: 240px;
+}
+
 .header-text {
   text-align: center;
   margin-top: 1.25rem;
