@@ -12,7 +12,7 @@
   --footer-background-color: #d5d4d8;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --card-color: #1a1b21;
     --headers-text-color: #f5f5f5;
@@ -21,7 +21,7 @@
     --linkedin-button-background: #5093e2;
     --footer-background-color: #161619;
   }
-} */
+}
 
 *,
 *::before,
@@ -73,20 +73,14 @@ body {
   font-family: "Inter", sans-serif;
   background-color: var(--background-color);
   color: var(--paragraphs-text-color);
-  display: grid;
-  place-content: center;
 }
 
 .container {
   background-color: var(--card-color);
   width: 317px;
-  height: 780px;
   border-radius: 0.625rem;
-}
-
-.photo {
-  border-top-left-radius: 0.625rem;
-  border-top-right-radius: 0.625rem;
+  overflow: hidden;
+  margin: 1rem auto;
 }
 
 .header-text {
@@ -150,4 +144,36 @@ h2 {
   background-color: var(--linkedin-button-background);
   color: var(--linkedin-text-color);
   padding: 0.5625rem 1.125rem;
+}
+
+.about {
+  margin-top: 2.0625rem;
+  margin-inline: 2.25rem;
+}
+
+.interests {
+  margin-top: 1.6875rem;
+  margin-inline: 2.25rem;
+}
+
+.about h3,
+.interests h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.about p,
+.interests p {
+  font-size: 0.64rem;
+  line-height: 0.96rem;
+  margin-top: 0.3125rem;
+}
+
+.footer {
+  background-color: var(--footer-background-color);
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-block: 1.21875rem;
+  margin-top: 2rem;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="footer">
       <a href="https://twitter.com/Ullafvs">
         <img src="./images/twitter.png" />
       </a>
