@@ -83,9 +83,6 @@ body {
   margin: 0.5rem auto;
 }
 
-@media (min-width: 500px) {
-}
-
 .photo {
   object-fit: cover;
   height: 266px;
