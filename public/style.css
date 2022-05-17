@@ -73,6 +73,8 @@ body {
   font-family: "Inter", sans-serif;
   background-color: var(--background-color);
   color: var(--paragraphs-text-color);
+  display: grid;
+  place-content: center;
 }
 
 .container {
@@ -80,7 +82,16 @@ body {
   max-width: 370px;
   border-radius: 0.625rem;
   overflow: hidden;
-  margin: 0.5rem auto;
+}
+
+@media (min-width: 550px) {
+  body {
+    display: block;
+  }
+
+  .container {
+    margin: 0.5rem auto;
+  }
 }
 
 .photo {
@@ -163,10 +174,10 @@ h2 {
 
 @media (min-width: 550px) {
   .about {
-    margin-top: 2.0625rem;
+    margin-top: 2rem;
   }
   .interests {
-    margin-top: 1.6875rem;
+    margin-top: 1.6rem;
   }
 }
 
