@@ -25,7 +25,7 @@ export default function Info() {
             className="linkedin-button"
             href="https://www.linkedin.com/in/ullavansprang/"
           >
-            <img src="./images/linkedin.png" width="13.33px" height="13.33px" />
+            <img src="./images/linkedin.svg" width="13.33px" height="13.33px" />
             LinkedIn
           </a>
         </div>
