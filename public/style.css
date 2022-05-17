@@ -84,9 +84,6 @@ body {
 }
 
 @media (min-width: 500px) {
-  .container {
-    margin: 2rem auto;
-  }
 }
 
 .photo {
@@ -158,13 +155,22 @@ h2 {
 }
 
 .about {
-  margin-top: 2.0625rem;
+  margin-top: 1.5625rem;
   margin-inline: 2.25rem;
 }
 
 .interests {
-  margin-top: 1.6875rem;
+  margin-top: 1.1875rem;
   margin-inline: 2.25rem;
+}
+
+@media (min-width: 550px) {
+  .about {
+    margin-top: 2.0625rem;
+  }
+  .interests {
+    margin-top: 1.6875rem;
+  }
 }
 
 .about h3,
@@ -186,5 +192,11 @@ h2 {
   justify-content: center;
   gap: 1.5rem;
   padding-block: 1.21875rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 550px) {
+  .footer {
+    margin-top: 2rem;
+  }
 }
