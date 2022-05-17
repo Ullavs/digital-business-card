@@ -77,15 +77,21 @@ body {
 
 .container {
   background-color: var(--card-color);
-  width: 317px;
+  max-width: 370px;
   border-radius: 0.625rem;
   overflow: hidden;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
+}
+
+@media (min-width: 500px) {
+  .container {
+    margin: 2rem auto;
+  }
 }
 
 .photo {
   object-fit: cover;
-  height: 240px;
+  height: 266px;
 }
 
 .header-text {
