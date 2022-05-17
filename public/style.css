@@ -75,11 +75,12 @@ body {
   color: var(--paragraphs-text-color);
   display: grid;
   place-content: center;
+  margin-block: 0.25rem;
 }
 
 .container {
   background-color: var(--card-color);
-  max-width: 370px;
+  max-width: 360px;
   border-radius: 0.625rem;
   overflow: hidden;
 }
