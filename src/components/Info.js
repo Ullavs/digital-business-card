@@ -18,7 +18,7 @@ export default function Info() {
         </a>
         <div className="buttons-header">
           <a className="email-button" href="mailto:ullavansprang@gmail.com">
-            <img src="./images/email.png" width="12.8px" height="9.6px" />
+            <img src="./images/email.svg" width="12.8px" height="9.6px" />
             Email
           </a>
           <a
