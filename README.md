@@ -6,7 +6,7 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 ## The challenge
 
 - Build a digital business card using React (my first React project! 🤩)
-- Use seperate components for: 
+- Use seperate components for:
   - Info (photo, name, buttons, etc.)
   - About
   - Interests
@@ -16,7 +16,7 @@ Solo projects are meant to challenge the skills you've learnt so far through the
 
 - HTML5
 - CSS3
-- React
+- [React](https://reactjs.org/) - JS library
 - Light and dark version
 - Figma design files from Scrimba
 
